@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+Icon?
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Logs / temp
+*.log
+*.tmp
+.DS_Queue
+
+# Python http.server
+__pycache__/
+*.py[cod]
+
+# AWS CLI / credentials (avoid committing secrets)
+.aws-credentials
+.aws/config
+.aws/credentials
