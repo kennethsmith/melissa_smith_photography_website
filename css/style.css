@@ -356,7 +356,9 @@ a:hover {
 }
 
 .about-image {
-    height: 500px;
+    width: 75%;
+    justify-self: center;
+    aspect-ratio: 2 / 3;
     background-size: cover;
     background-position: center;
 }
