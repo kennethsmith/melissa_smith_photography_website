@@ -46,7 +46,7 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 - Each page loads `css/style.css` and `js/main.js` at the bottom of `<body>`.
 - **Images are NOT `<img>` tags.** They are `<div>`s with an inline style:
   ```html
-  <div class="session-photo" style="background-image: url('images/gallery/johnson/1.jpg');"></div>
+  <div class="session-photo" style="background-image: url('images/gallery/park-family/1.jpg');"></div>
   ```
   The containing classes set `background-size: cover` and `background-position: center`.
 - Keep `4-space` indentation. Album/session pages include a `.lightbox` block (with prev/next buttons) before the scripts.
@@ -76,9 +76,11 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 - The lightbox reads the image URL out of each `.event-photo`'s inline `background-image` style via regex — keep that pattern if you change gallery markup.
 
 ### Images
-- One directory per page/section, e.g. `images/johnson-family/`, `images/gallery/<session>/`.
+- Featured albums (Johnson, Ella, Viking) store their images once under `images/<session>/` — `gallery.html` cards and the album pages both reference these same files. There is NO separate `images/gallery/<session>/` copy for featured sessions; adding one will silently leave the site in sync.
+- Non-featured albums store their images under `images/gallery/<session>/`, referenced by both the gallery card and the album page.
 - Named `hero.jpg`, `story.jpg`, `1.jpg`…`8.jpg`; featured thumbnails in `images/featured/`.
 - The site must stay fully self-contained — never hotlink external image URLs. To swap in real photos, replace the file in place or update the inline `url('...')` path.
+- Image URLs use a `?v=<lmtime>` cache-buster query so replaced files show up without a hard refresh; regenerate it whenever the file changes.
 
 ## Notes
 - Content (names, dates, prices, copy) is placeholder example data; the business is "Melissa Smith Photography", contact `contact@melissasmithphotography.com`.

@@ -46,19 +46,16 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
     ├── about/                  # Photographer portrait
     ├── featured/               # Featured Work thumbnails
     ├── carousel/               # Homepage highlights carousel
-    ├── gallery/                # Gallery page, split by session
-    │   ├── johnson/
-    │   ├── emily/
-    │   ├── viking-company-holiday-party/
+    ├── gallery/                # Gallery page thumbnails, split by session
     │   ├── park-family/
     │   ├── gonska-maternity/
     │   ├── marcus/
     │   ├── elopement/
     │   ├── beaumont-maternity/
     │   └── real-estate/
-    ├── johnson-family/         # Album page images (hero, story, 1-8)
-    ├── emily-senior/           # Album page images
-    └── viking-company-holiday-party/   # Album page images
+    ├── johnson-family/         # Featured album images + gallery thumbs (shared)
+    ├── emily-senior/           # Featured album images + gallery thumbs (shared)
+    └── viking-company-holiday-party/   # Featured album images + gallery thumbs (shared)
 ```
 
 ## Running Locally
@@ -79,7 +76,7 @@ The site currently uses stock photos as placeholders. Each page references image
 1. **Replace in place** — drop a real photo into the same file path (e.g. `images/johnson-family/hero.jpg`) and keep the filename.
 2. **Change the path** — update the `background-image: url('...')` values in the HTML files to point at your own files.
 
-> Note: every image is set via CSS `background-image` inside a `style` attribute (e.g. `<div class="session-photo" style="background-image: url('images/gallery/johnson/1.jpg');"></div>`). The container classes apply `background-size: cover` and `background-position: center`, so any aspect ratio will crop cleanly.
+> Note: every image is set via CSS `background-image` inside a `style` attribute (e.g. `<div class="session-photo" style="background-image: url('images/gallery/park-family/1.jpg');"></div>`). The container classes apply `background-size: cover` and `background-position: center`, so any aspect ratio will crop cleanly.
 
 ## Behavior & Interactions (all in `js/main.js`)
 
