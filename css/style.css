@@ -631,12 +631,13 @@ a:hover {
 .pricing-card.featured {
     border: 2px solid var(--color-accent);
     position: relative;
+    padding-top: 58px;
 }
 
 .pricing-card.featured::before {
     content: 'Most Popular';
     position: absolute;
-    top: -14px;
+    top: 16px;
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--color-accent);
