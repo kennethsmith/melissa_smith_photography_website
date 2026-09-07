@@ -24,9 +24,15 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 | `gallery.html` | Portfolio organized by session, filterable client-side |
 | `pricing.html` | Package price sheet + notes |
 | `expectations.html` | Process, tips, FAQ |
-| `the-johnson-family.html` | Featured session detail + gallery lightbox |
-| `ellas-senior-portraits.html` | Featured session detail + gallery lightbox |
-| `viking-company-holiday-party.html` | Featured session detail + gallery lightbox |
+| `the-johnson-family.html` | Session album page + gallery lightbox |
+| `ellas-senior-portraits.html` | Session album page + gallery lightbox |
+| `viking-company-holiday-party.html` | Session album page + gallery lightbox |
+| `the-park-family.html` | Session album page + gallery lightbox |
+| `the-gonska-liu-family-maternity.html` | Session album page + gallery lightbox |
+| `marcus-grad-portraits.html` | Session album page + gallery lightbox |
+| `simple-city-hall-elopement.html` | Session album page + gallery lightbox |
+| `the-beaumont-family.html` | Session album page + gallery lightbox |
+| `commercial-real-estate.html` | Session album page + gallery lightbox |
 | `css/style.css` | All styling in one file |
 | `js/main.js` | All behavior in one file |
 | `images/` | All assets, organized by page/section |
@@ -43,7 +49,7 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
   <div class="session-photo" style="background-image: url('images/gallery/johnson/1.jpg');"></div>
   ```
   The containing classes set `background-size: cover` and `background-position: center`.
-- Keep `4-space` indentation. Event pages include a `.lightbox` block before the scripts.
+- Keep `4-space` indentation. Album/session pages include a `.lightbox` block (with prev/next buttons) before the scripts.
 
 ### CSS
 - All styles in `css/style.css`. No CSS-in-JS, no preprocessors.

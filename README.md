@@ -5,8 +5,8 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ## Features
 
 - **Home page** with a full-screen hero slideshow, a horizontally scrolling Featured Work marquee, an about section, and a highlighted-images carousel
-- **Event pages** for each featured session (Johnson Family, Ella's Senior Portraits, Viking Company Holiday Party) with a masonry gallery and click-to-enlarge lightbox
-- **Gallery page** organized by session type (Family, Senior, Events, Maternity, Real Estate) with client-side filtering
+- **Album pages** for every gallery session with a masonry gallery and click-to-enlarge lightbox (the Johnson Family, Ella's Senior Portraits, and Viking Company Holiday Party share their featured pages)
+- **Gallery page** organized by session type (Family, Senior, Events, Maternity, Real Estate) with client-side filtering; each session title links to its album page showing the full set of photos
 - **Pricing page** with session packages and detailed notes
 - **What to Expect page** walking clients through the booking process, plus tips and a FAQ
 - **Contact section** with email (`contact@melissasmithphotography.com`), phone, and social links
@@ -27,9 +27,15 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ├── gallery.html                # Portfolio organized by session
 ├── pricing.html                # Price sheet
 ├── expectations.html           # Session expectations + FAQ
-├── the-johnson-family.html     # Featured session detail page
-├── ellas-senior-portraits.html
-├── viking-company-holiday-party.html
+├── the-johnson-family.html     # Album page (featured session)
+├── ellas-senior-portraits.html # Album page (featured session)
+├── viking-company-holiday-party.html # Album page (featured session)
+├── the-park-family.html        # Album page
+├── the-gonska-liu-family-maternity.html # Album page
+├── marcus-grad-portraits.html  # Album page
+├── simple-city-hall-elopement.html # Album page
+├── the-beaumont-family.html    # Album page
+├── commercial-real-estate.html # Album page
 ├── css/
 │   └── style.css               # All styling (single file)
 ├── js/
@@ -45,13 +51,14 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
     │   ├── emily/
     │   ├── viking-company-holiday-party/
     │   ├── park-family/
-    │   ├── garcia-maternity/
+    │   ├── gonska-maternity/
     │   ├── marcus/
+    │   ├── elopement/
     │   ├── beaumont-maternity/
     │   └── real-estate/
-    ├── johnson-family/         # Event page images (hero, story, 1-8)
-    ├── emily-senior/           # Event page images
-    └── viking-company-holiday-party/   # Event page images
+    ├── johnson-family/         # Album page images (hero, story, 1-8)
+    ├── emily-senior/           # Album page images
+    └── viking-company-holiday-party/   # Album page images
 ```
 
 ## Running Locally
