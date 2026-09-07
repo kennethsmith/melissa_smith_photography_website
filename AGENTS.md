@@ -28,7 +28,7 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 | `ellas-senior-portraits.html` | Session album page + gallery lightbox |
 | `the-park-family.html` | Session album page + gallery lightbox |
 | `the-gonska-liu-family-maternity.html` | Session album page + gallery lightbox |
-| `marcus-grad-portraits.html` | Session album page + gallery lightbox |
+| `marcus-grad-portraits.html` | Session album page + gallery lightbox (Paisli's Senior Session) |
 | `simple-city-hall-elopement.html` | Session album page + gallery lightbox |
 | `the-beaumont-family.html` | Session album page + gallery lightbox |
 | `commercial-real-estate.html` | Session album page + gallery lightbox |

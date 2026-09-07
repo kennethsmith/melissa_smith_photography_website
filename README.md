@@ -31,7 +31,7 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ├── ellas-senior-portraits.html # Album page (featured session)
 ├── the-park-family.html        # Album page
 ├── the-gonska-liu-family-maternity.html # Album page
-├── marcus-grad-portraits.html  # Album page
+├── marcus-grad-portraits.html  # Album page (Paisli's Senior Session)
 ├── simple-city-hall-elopement.html # Album page
 ├── the-beaumont-family.html    # Album page
 ├── commercial-real-estate.html # Album page

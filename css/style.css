@@ -1265,6 +1265,11 @@ a:hover {
     border-radius: 2px;
 }
 
+.story-image-portrait {
+    height: auto;
+    aspect-ratio: 3648 / 5472;
+}
+
 .event-gallery {
     background-color: var(--color-white);
     padding: 80px 0;
@@ -1470,6 +1475,10 @@ a:hover {
     }
     .event-story-image {
         height: 320px;
+    }
+    .story-image-portrait {
+        height: auto;
+        aspect-ratio: 3648 / 5472;
     }
     .event-gallery-masonry {
         columns: 1;
