@@ -55,7 +55,8 @@
         const interval = 5000;
 
         let current = 0;
-        let autoPlay;
+        let autoPlay;             // holds the current setTimeout id
+        let paused = false;
 
         if (slides.length === 0) return;
 
@@ -89,12 +90,25 @@
             goToSlide(current - 1);
         }
 
+        function scheduleNext() {
+            autoPlay = setTimeout(function () {
+                nextSlide();
+                if (!paused) scheduleNext();
+            }, interval);
+        }
+
         function startAutoPlay() {
-            autoPlay = setInterval(nextSlide, interval);
+            paused = false;
+            if (autoPlay) clearTimeout(autoPlay);
+            scheduleNext();
+        }
+
+        function pauseAutoPlay() {
+            paused = true;
+            if (autoPlay) clearTimeout(autoPlay);
         }
 
         function restartAutoPlay() {
-            clearInterval(autoPlay);
             startAutoPlay();
         }
 
@@ -109,7 +123,7 @@
         });
 
         carousel.addEventListener('mouseenter', function () {
-            clearInterval(autoPlay);
+            pauseAutoPlay();
         });
 
         carousel.addEventListener('mouseleave', function () {

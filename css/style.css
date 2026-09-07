@@ -567,7 +567,7 @@ a:hover {
     overflow: hidden;
     flex-shrink: 0;
     width: 420px;
-    height: 400px;
+    aspect-ratio: 3648 / 5472;
     margin-right: 30px;
     border-radius: 2px;
     cursor: pointer;
@@ -672,7 +672,8 @@ a:hover {
 
 .carousel-track .carousel-slide {
     display: none;
-    height: 500px;
+    width: 100%;
+    aspect-ratio: 5472 / 3648;
     border-radius: 2px;
     background-size: cover;
     background-position: center;
@@ -1185,7 +1186,7 @@ a:hover {
     height: 75vh;
     min-height: 450px;
     background-size: cover;
-    background-position: center;
+    background-position: center 68%;
     overflow: hidden;
 }
 
@@ -1474,7 +1475,7 @@ a:hover {
         columns: 1;
     }
     .carousel-track .carousel-slide {
-        height: 350px;
+        aspect-ratio: 5472 / 3648;
     }
     .contact-wrapper {
         grid-template-columns: 1fr;
