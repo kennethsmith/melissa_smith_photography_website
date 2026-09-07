@@ -25,8 +25,8 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 | `pricing.html` | Package price sheet + notes |
 | `expectations.html` | Process, tips, FAQ |
 | `the-johnson-family.html` | Featured session detail + gallery lightbox |
-| `emilys-senior-portraits.html` | Featured session detail + gallery lightbox |
-| `rustic-wedding.html` | Featured session detail + gallery lightbox |
+| `ellas-senior-portraits.html` | Featured session detail + gallery lightbox |
+| `viking-company-holiday-party.html` | Featured session detail + gallery lightbox |
 | `css/style.css` | All styling in one file |
 | `js/main.js` | All behavior in one file |
 | `images/` | All assets, organized by page/section |
@@ -55,6 +55,7 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
   ```
 - Design tokens are CSS custom properties at the top of the file (`:root`): palette (`--color-*`), fonts (`--font-heading`, `--font-body`), and `--transition`.
 - Use the existing tokens rather than hardcoding colors/fonts.
+- Fonts are bundled locally under `fonts/` (woff2) and registered via `@font-face` at the top of `style.css`. Swap in new fonts by replacing files or updating the `src` paths; never hotlink font CDNs.
 - Responsive breakpoints at 992px, 768px, and 480px — add/override rules inside the existing media queries.
 
 ### JavaScript (`js/main.js`)

@@ -5,11 +5,12 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ## Features
 
 - **Home page** with a full-screen hero slideshow, a horizontally scrolling Featured Work marquee, an about section, and a highlighted-images carousel
-- **Event pages** for each featured session (Johnson Family, Emily's Senior Portraits, Rustic Wedding) with a masonry gallery and click-to-enlarge lightbox
-- **Gallery page** organized by session type (Family, Senior, Wedding, Maternity) with client-side filtering
+- **Event pages** for each featured session (Johnson Family, Ella's Senior Portraits, Viking Company Holiday Party) with a masonry gallery and click-to-enlarge lightbox
+- **Gallery page** organized by session type (Family, Senior, Events, Maternity, Real Estate) with client-side filtering
 - **Pricing page** with session packages and detailed notes
 - **What to Expect page** walking clients through the booking process, plus tips and a FAQ
 - **Contact section** with email (`contact@melissasmithphotography.com`), phone, and social links
+- Locally bundled fonts (Cormorant Garamond headings + Nunito Sans body) — no CDN dependencies
 - Fully responsive down to 480px with a mobile hamburger menu
 
 ## Tech Stack
@@ -27,12 +28,13 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ├── pricing.html                # Price sheet
 ├── expectations.html           # Session expectations + FAQ
 ├── the-johnson-family.html     # Featured session detail page
-├── emilys-senior-portraits.html
-├── rustic-wedding.html
+├── ellas-senior-portraits.html
+├── viking-company-holiday-party.html
 ├── css/
 │   └── style.css               # All styling (single file)
 ├── js/
 │   └── main.js                 # All behavior (single file)
+├── fonts/                      # Local woff2 fonts (@font-face in style.css)
 └── images/
     ├── hero/                   # Homepage hero slideshow
     ├── about/                  # Photographer portrait
@@ -41,15 +43,15 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
     ├── gallery/                # Gallery page, split by session
     │   ├── johnson/
     │   ├── emily/
-    │   ├── barn-wedding/
+    │   ├── viking-company-holiday-party/
     │   ├── park-family/
     │   ├── garcia-maternity/
     │   ├── marcus/
-    │   ├── elopement/
-    │   └── miller-maternity/
+    │   ├── beaumont-maternity/
+    │   └── real-estate/
     ├── johnson-family/         # Event page images (hero, story, 1-8)
     ├── emily-senior/           # Event page images
-    └── rustic-wedding/         # Event page images
+    └── viking-company-holiday-party/   # Event page images
 ```
 
 ## Running Locally
