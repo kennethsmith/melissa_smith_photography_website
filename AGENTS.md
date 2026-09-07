@@ -76,7 +76,7 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 - The lightbox reads the image URL out of each `.event-photo`'s inline `background-image` style via regex — keep that pattern if you change gallery markup.
 
 ### Images
-- Featured albums (Johnson, Ella, Viking) store their images once under `images/<session>/` — `gallery.html` cards and the album pages both reference these same files. There is NO separate `images/gallery/<session>/` copy for featured sessions; adding one will silently leave the site in sync.
+- Featured albums (Abby's Senior Session, Ella's Senior Portraits, Viking Company Holiday Party) store their images once under `images/<session>/` — `gallery.html` cards and the album pages both reference these same files. There is NO separate `images/gallery/<session>/` copy for featured sessions; adding one will silently leave the site in sync.
 - Non-featured albums store their images under `images/gallery/<session>/`, referenced by both the gallery card and the album page.
 - Named `hero.jpg`, `story.jpg`, `1.jpg`…`8.jpg`; featured thumbnails in `images/featured/`.
 - The site must stay fully self-contained — never hotlink external image URLs. To swap in real photos, replace the file in place or update the inline `url('...')` path.

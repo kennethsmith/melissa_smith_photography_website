@@ -5,7 +5,7 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ## Features
 
 - **Home page** with a full-screen hero slideshow, a horizontally scrolling Featured Work marquee, an about section, and a highlighted-images carousel
-- **Album pages** for every gallery session with a masonry gallery and click-to-enlarge lightbox (the Johnson Family, Ella's Senior Portraits, and Viking Company Holiday Party share their featured pages)
+- **Album pages** for every gallery session with a masonry gallery and click-to-enlarge lightbox (Abby's Senior Session, Ella's Senior Portraits, and Viking Company Holiday Party share their featured pages)
 - **Gallery page** organized by session type (Family, Senior, Events, Maternity, Real Estate) with client-side filtering; each session title links to its album page showing the full set of photos
 - **Pricing page** with session packages and detailed notes
 - **What to Expect page** walking clients through the booking process, plus tips and a FAQ
