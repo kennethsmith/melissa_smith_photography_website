@@ -5,7 +5,7 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ## Features
 
 - **Home page** with a full-screen hero slideshow, a horizontally scrolling Featured Work marquee, an about section, and a highlighted-images carousel
-- **Album pages** for every gallery session with a masonry gallery and click-to-enlarge lightbox (Abby's Senior Session and Ella's Senior Portraits share their featured pages)
+- **Album pages** for every gallery session with a masonry gallery and click-to-enlarge lightbox (Abby and Ella share their featured pages)
 - **Gallery page** organized by session type (Family, Senior, Events, Maternity, Real Estate) with client-side filtering; each session title links to its album page showing the full set of photos
 - **Pricing page** with session packages and detailed notes
 - **What to Expect page** walking clients through the booking process, plus tips and a FAQ
@@ -29,11 +29,12 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ├── expectations.html           # Session expectations + FAQ
 ├── the-johnson-family.html     # Album page (featured session)
 ├── ellas-senior-portraits.html # Album page (featured session)
-├── the-park-family.html        # Album page
 ├── the-gonska-liu-family-maternity.html # Album page
-├── marcus-grad-portraits.html  # Album page (Paisli's Senior Session)
-├── simple-city-hall-elopement.html # Album page
-├── the-beaumont-family.html    # Album page
+├── marcus-grad-portraits.html  # Album page (Paisli)
+├── lauren-senior-portraits.html # Album page (Lauren)
+├── justin-senior-portraits.html # Album page (Justin)
+├── aidan-senior-portraits.html  # Album page (Aidan)
+├── the-beaumont-family.html     # Album page
 ├── commercial-real-estate.html # Album page
 ├── css/
 │   └── style.css               # All styling (single file)
@@ -46,10 +47,8 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
     ├── featured/               # Featured Work thumbnails
     ├── carousel/               # Homepage highlights carousel
     ├── gallery/                # Gallery page thumbnails, split by session
-    │   ├── park-family/
     │   ├── gonska-maternity/
     │   ├── marcus/
-    │   ├── elopement/
     │   ├── beaumont-maternity/
     │   └── real-estate/
     ├── johnson-family/         # Featured album images + gallery thumbs (shared)
@@ -74,7 +73,7 @@ The site currently uses stock photos as placeholders. Each page references image
 1. **Replace in place** — drop a real photo into the same file path (e.g. `images/johnson-family/hero.jpg`) and keep the filename.
 2. **Change the path** — update the `background-image: url('...')` values in the HTML files to point at your own files.
 
-> Note: every image is set via CSS `background-image` inside a `style` attribute (e.g. `<div class="session-photo" style="background-image: url('images/gallery/park-family/1.jpg');"></div>`). The container classes apply `background-size: cover` and `background-position: center`, so any aspect ratio will crop cleanly.
+> Note: every image is set via CSS `background-image` inside a `style` attribute (e.g. `<div class="session-photo" style="background-image: url('images/gallery/justin/1.jpg');"></div>`). The container classes apply `background-size: cover` and `background-position: center`, so any aspect ratio will crop cleanly.
 
 ## Behavior & Interactions (all in `js/main.js`)
 
