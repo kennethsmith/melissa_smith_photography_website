@@ -32,6 +32,10 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 | `justin-senior-portraits.html` | Session album page + gallery lightbox |
 | `aidan-senior-portraits.html` | Session album page + gallery lightbox |
 | `the-beaumont-family.html` | Session album page + gallery lightbox |
+| `the-blems.html` | Session album page + gallery lightbox (October 2024, Champoeg State Park - placeholder images) |
+| `viking-company-training.html` | Session album page + gallery lightbox (June 2024, Boring - placeholder images) |
+| `fairway-america-corporate-event.html` | Session album page + gallery lightbox (November 2022, Lake Oswego - placeholder images) |
+| `sporting-event-water-polo.html` | Session album page + gallery lightbox (various dates/locations - placeholder images) |
 | `commercial-real-estate.html` | Session album page + gallery lightbox |
 | `css/style.css` | All styling in one file |
 | `js/main.js` | All behavior in one file |

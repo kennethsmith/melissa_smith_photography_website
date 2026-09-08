@@ -35,6 +35,10 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ├── justin-senior-portraits.html # Album page (Justin)
 ├── aidan-senior-portraits.html  # Album page (Aidan)
 ├── the-beaumont-family.html     # Album page
+├── the-blems.html               # Album page (The Blems)
+├── viking-company-training.html # Album page (Viking Company Training)
+├── fairway-america-corporate-event.html # Album page (Fairway America)
+├── sporting-event-water-polo.html # Album page (Water Polo)
 ├── commercial-real-estate.html # Album page
 ├── css/
 │   └── style.css               # All styling (single file)
@@ -50,6 +54,10 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
     │   ├── gonska-maternity/
     │   ├── marcus/
     │   ├── beaumont-maternity/
+    │   ├── blems/
+    │   ├── viking/
+    │   ├── fairway/
+    │   ├── water-polo/
     │   └── real-estate/
     ├── johnson-family/         # Featured album images + gallery thumbs (shared)
     ├── emily-senior/           # Featured album images + gallery thumbs (shared)
