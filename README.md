@@ -9,7 +9,7 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 - **Gallery page** organized by session type (Family, Senior, Events, Maternity, Real Estate) with client-side filtering; each session title links to its album page showing the full set of photos
 - **Pricing page** with session packages and detailed notes
 - **What to Expect page** walking clients through the booking process, plus tips and a FAQ
-- **Contact section** with email (`contact@melissasmithphotography.com`), phone, and social links
+- **Contact section** with email (`melissasmithphotography.or@gmail.com`), phone, and social links
 - Locally bundled fonts (Cormorant Garamond headings + Nunito Sans body) — no CDN dependencies
 - Fully responsive down to 480px with a mobile hamburger menu
 

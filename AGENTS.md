@@ -89,5 +89,5 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 - Image URLs use a `?v=<lmtime>` cache-buster query so replaced files show up without a hard refresh; regenerate it whenever the file changes.
 
 ## Notes
-- Content (names, dates, prices, copy) is placeholder example data; the business is "Melissa Smith Photography", contact `contact@melissasmithphotography.com`.
+- Content (names, dates, prices, copy) is placeholder example data; the business is "Melissa Smith Photography", contact `melissasmithphotography.or@gmail.com`.
 - No git repo is initialized in this directory.
