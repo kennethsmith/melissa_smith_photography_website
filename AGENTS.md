@@ -16,6 +16,8 @@ python3 -m http.server 8080
 
 Validate changes by opening `http://localhost:8080` in a browser (refreshing as needed). To spot-check PHP-free syntax, you can also view files in a browser directly via the running server.
 
+**Do NOT run `save.sh` or `deploy.sh`, and do NOT upload anything to S3.** Make changes locally only; the client deploys manually.
+
 ## File overview
 
 | File | Purpose |
