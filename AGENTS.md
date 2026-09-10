@@ -34,6 +34,7 @@ Validate changes by opening `http://localhost:8080` in a browser (refreshing as 
 | `justin-senior-portraits.html` | Session album page + gallery lightbox |
 | `aidan-senior-portraits.html` | Session album page + gallery lightbox |
 | `ella-senior-portraits-2023.html` | Session album page + gallery lightbox |
+| `karissa-senior-portraits.html` | Session album page + gallery lightbox |
 | `the-beaumont-family.html` | Session album page + gallery lightbox |
 | `the-blems.html` | Session album page + gallery lightbox (October 2024, Champoeg State Park - placeholder images) |
 | `viking-company-training.html` | Session album page + gallery lightbox (June 2024, Boring - placeholder images) |
