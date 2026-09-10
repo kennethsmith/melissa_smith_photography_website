@@ -34,6 +34,7 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
 ├── lauren-senior-portraits.html # Album page (Lauren)
 ├── justin-senior-portraits.html # Album page (Justin)
 ├── aidan-senior-portraits.html  # Album page (Aidan)
+├── ella-senior-portraits-2023.html # Album page (Ella 2023)
 ├── the-beaumont-family.html     # Album page
 ├── the-blems.html               # Album page (The Blems)
 ├── viking-company-training.html # Album page (Viking Company Training)
@@ -57,6 +58,7 @@ A static photography portfolio website built with native HTML5, CSS, and JavaScr
     │   ├── blems/
     │   ├── viking/
     │   ├── fairway/
+    │   ├── ella-2023/
     │   ├── water-polo/
     │   └── real-estate/
     ├── johnson-family/         # Featured album images + gallery thumbs (shared)
